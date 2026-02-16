@@ -24,7 +24,7 @@ The improved model achieves a **60% RMSE reduction** over the paper's baseline (
 |---|---|---|---|
 | Fama-French Regression (baseline) | 0.0108 | — | Strong linear baseline |
 | Paper LSTM (baseline) | 0.0549 | — | Weak fit on smoothed returns |
-| **Improved LSTM** | **0.0216** | **~0.018** | ✅ Best overall performance |
+| **Improved LSTM** | **0.0216** | **~0.018** | Best overall performance |
 | Improved LSTM on Real Returns | 0.0491 | 0.0379 | Generalized to raw data |
 | ARIMA (1,0,1) | 0.0252 | 0.0198 | R² = -0.16, regresses to mean |
 | Time-Split LSTM (2006–24 test) | 0.0226 | 0.0174 | Proved temporal robustness |
@@ -172,31 +172,6 @@ jupyter
 
 ---
 
-## Team
-
-| Name | ID | Contribution |
-|---|---|---|
-| Veda Agrawal | 2022B3A70586H | Overall Implementation |
-| Kumar Shivansh Sinha | 2022B1AA1227H | Paper Implementation (Section 2) |
-| Siddhi Gadodia | 2022A7PS1652H | Innovation (Section 3) |
-| Priten Rathore | 2022B3AA0690H | Experiments (Section 4) |
-| Sharwari Pejathaya | 2022B3AA0792H | Experiments (Section 4) |
-
----
-
-## Citation
-
-If you use this work, please cite:
-
-```
-@misc{lstm-stock-forecasting-2025,
-  title   = {Forecasting U.S. Stock Returns Using LSTM},
-  author  = {Agrawal, Veda and Sinha, Kumar Shivansh and Gadodia, Siddhi 
-             and Rathore, Priten and Pejathaya, Sharwari},
-  year    = {2025},
-  note    = {Course Project, BITS F464 Machine Learning, BITS Pilani}
-}
-```
 
 ---
 
